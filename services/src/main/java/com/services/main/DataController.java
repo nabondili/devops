@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DataController {
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String getData(){
        return "Sandeep";
     }
