@@ -1,6 +1,6 @@
 cd ui
 npm install
-npm build
+npm run-script build
 cd ..
 ./gradlew copyDocs
 docker --version
