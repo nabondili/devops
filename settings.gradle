@@ -1,2 +1,3 @@
 rootProject.name = 'devops'
+include("services")
 
